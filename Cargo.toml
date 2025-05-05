@@ -3,6 +3,18 @@ name = "qx_rs_md_env"
 version = "0.0.0"
 edition = "2021"
 
+authors = ["labi3265 <766043285@qq.com>"]
+license = "MIT"
+description = "quick err util in rust."
+homepage = "https://github.com/labi3285"
+repository = "https://github.com/labi3285/qx_rs_md_env"
+readme = "README.md"
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+
 [dependencies]
 qx_rs_err = "^0.0.0"
 qx_rs_env = "^0.0.0"
