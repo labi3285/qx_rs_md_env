@@ -5,7 +5,7 @@ edition = "2021"
 
 authors = ["labi3265 <766043285@qq.com>"]
 license = "MIT"
-description = "quick err util in rust."
+description = "quick env module in rust."
 homepage = "https://github.com/labi3285"
 repository = "https://github.com/labi3285/qx_rs_md_env"
 readme = "README.md"
